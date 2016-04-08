@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.bignerranch.android.personaltrainerassistant2.customerProfile"
+    tools:showIn="@layout/activity_customer_profile">
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/new_customer_photo"
+        android:background="@drawable/empty_profile_picture_male"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/current_customer_name"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:alpha = "0.3"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/current_customer_name"
+        android:id="@+id/current_customer_name"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/current_customer_phone_number"
+        android:id="@+id/current_customer_phone_number"
+        android:layout_alignTop="@+id/new_customer_photo"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/customer_billing_method"
+        android:id="@+id/billing_method_button"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/current_customer_phone_number"
+        android:layout_centerHorizontal="true"
+        style="?android:attr/buttonBarButtonStyle"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/current_customer_session_list"
+        android:id="@+id/customer_session_list_button"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/billing_method_button"
+        android:layout_centerHorizontal="true"
+        style="?android:attr/buttonBarButtonStyle"/>
+
+</RelativeLayout>
+
+

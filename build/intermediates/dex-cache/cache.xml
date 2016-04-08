@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/Erick_Bravo_Home_Personal_Mac/AndroidStudioProjects/PersonalTrainerAssistant2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="e4d0cbb0b999604b349062f0214a0a228a7fd151">
+        <dex dex="/Users/Erick_Bravo_Home_Personal_Mac/AndroidStudioProjects/PersonalTrainerAssistant2/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.2.1_e4265b6de4a7d3981ca3f8a8ba5b7765db6a0d44.jar" />
+    </item>
+    <item
+        jar="/Users/Erick_Bravo_Home_Personal_Mac/AndroidStudioProjects/PersonalTrainerAssistant2/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="e3885783ff8926ed9e2fdcd16816c2e1e73e7aee">
+        <dex dex="/Users/Erick_Bravo_Home_Personal_Mac/AndroidStudioProjects/PersonalTrainerAssistant2/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-23.2.1_21fe67c77d5ccee674c0b3e131d3c1430a519a70.jar" />
+    </item>
+    <item
+        jar="/Users/Erick_Bravo_Home_Personal_Mac/AndroidStudioProjects/PersonalTrainerAssistant2/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="3469cb457f10f74c28cbc05f069b6c894f6cbdd0">
+        <dex dex="/Users/Erick_Bravo_Home_Personal_Mac/AndroidStudioProjects/PersonalTrainerAssistant2/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-23.2.1_b149e7001ea40282ba5092eb953cc9b5bb370c9a.jar" />
+    </item>
+    <item
+        jar="/Users/Erick_Bravo_Home_Personal_Mac/AndroidStudioProjects/PersonalTrainerAssistant2/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="673d77a5bbddd766037f088e775df525c46407f0">
+        <dex dex="/Users/Erick_Bravo_Home_Personal_Mac/AndroidStudioProjects/PersonalTrainerAssistant2/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-23.2.1_c88f7f1c89588288ce89b5baad75e5f5d696da92.jar" />
+    </item>
+    <item
+        jar="/Users/Erick_Bravo_Home_Personal_Mac/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.2.1/support-annotations-23.2.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="ccb693bc0774fcb637246f7360de25b4af7df318">
+        <dex dex="/Users/Erick_Bravo_Home_Personal_Mac/AndroidStudioProjects/PersonalTrainerAssistant2/app/build/intermediates/pre-dexed/debug/support-annotations-23.2.1_6ce901c1ba4c4908d26b563b9f0cb80d5a4949c4.jar" />
+    </item>
+    <item
+        jar="/Users/Erick_Bravo_Home_Personal_Mac/AndroidStudioProjects/PersonalTrainerAssistant2/app/build/intermediates/exploded-aar/com.android.support/design/23.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="72961d8b453b46e277702f18de9d210bc019e36e">
+        <dex dex="/Users/Erick_Bravo_Home_Personal_Mac/AndroidStudioProjects/PersonalTrainerAssistant2/app/build/intermediates/pre-dexed/debug/com.android.support-design-23.2.1_fed97a501cf7b20653aea830b2c94690c94ef6c4.jar" />
+    </item>
+    <item
+        jar="/Users/Erick_Bravo_Home_Personal_Mac/AndroidStudioProjects/PersonalTrainerAssistant2/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/jars/libs/internal_impl-23.2.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="607a3d0b8013b4ccbfeb0b7cb293351994e021fb">
+        <dex dex="/Users/Erick_Bravo_Home_Personal_Mac/AndroidStudioProjects/PersonalTrainerAssistant2/app/build/intermediates/pre-dexed/debug/internal_impl-23.2.1_4e08c12d5e544b58cd3a998f90c8f231b2357b84.jar" />
+    </item>
+    <item
+        jar="/Users/Erick_Bravo_Home_Personal_Mac/AndroidStudioProjects/PersonalTrainerAssistant2/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="3be474b1b21b31cf2fa93fe6bd641ae108d96452">
+        <dex dex="/Users/Erick_Bravo_Home_Personal_Mac/AndroidStudioProjects/PersonalTrainerAssistant2/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.2.1_c329164642c108d05da7b30b06e6e51e7bb1742c.jar" />
+    </item>
+
+</items>

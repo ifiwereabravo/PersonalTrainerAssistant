@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest package="com.bignerranch.android.personaltrainerassistant2"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.READ_PROFILE"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+
+    <!-- user defined -->
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity">
+        </activity>
+        <activity
+            android:name=".CustomerListActivity"
+            android:label="@string/activity_title_customer_list"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.bignerranch.android.personaltrainerassistant2.MainActivity"/>
+        </activity>
+        <activity
+            android:name=".MakeNewCustomer"
+            android:label="@string/activity_title_make_new_customer"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.bignerranch.android.personaltrainerassistant2.MainActivity"/>
+        </activity>
+        <activity
+            android:name=".customerProfile"
+            android:label="@string/activity_title_customer_profile"
+            android:parentActivityName=".CustomerListActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.bignerranch.android.personaltrainerassistant2.CustomerListActivity"/>
+        </activity>
+        <activity
+            android:name=".make_new_session"
+            android:label="@string/activity_title_make_new_session"
+            android:parentActivityName=".customerProfile"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.bignerranch.android.personaltrainerassistant2.customerProfile"/>
+        </activity>
+        <activity
+            android:name=".Billing_method"
+            android:label="@string/activity_title_customer_billing_info"
+            android:parentActivityName=".customerProfile"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.bignerranch.android.personaltrainerassistant2.customerProfile"/>
+        </activity>
+        <activity
+            android:name=".TakeInitialPhotoActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_take_initial_photo"
+            android:parentActivityName=".MakeNewCustomer"
+            android:theme="@style/FullscreenTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.bignerranch.android.personaltrainerassistant2.MakeNewCustomer"/>
+        </activity>
+    </application>
+
+</manifest>
